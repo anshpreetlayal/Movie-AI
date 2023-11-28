@@ -24,3 +24,15 @@ const Spinner = styled.div`
   height: 30px;
   animation: ${spinAnimation} 1s linear infinite;
 `;
+
+function LoadingSpinner() {
+    return (
+      <SpinnerContainer>
+        <Spinner></Spinner>
+        {}
+        <p>Loading...</p>
+      </SpinnerContainer>
+    );
+  }
+  
+  export default LoadingSpinner;
