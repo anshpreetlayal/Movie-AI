@@ -1,13 +1,9 @@
 import React from 'react';
+import styled, { keyframes } from 'styled-components';
 
-function LoadingSpinner() {
-  return (
-    <div className="spinner-container">
-      <div className="spinner"></div>
-      {}
-      <p>Loading...</p>
-    </div>
-  );
-}
-
-export default LoadingSpinner;
+// Keyframe animation for the spinner rotation
+const spinAnimation = keyframes`
+  to {
+    transform: rotate(360deg);
+  }
+`;
