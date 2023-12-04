@@ -27,7 +27,13 @@ function UserPreferences({ userPreferences, onSave }) {
           <option value="action">Action</option>
           <option value="comedy">Comedy</option>
           <option value="drama">Drama</option>
-          {/* Add more genre options */}
+          <option value="Gory">Gory</option>
+          <option value="Horror">Science-Fiction</option>
+          <option value="Animation">Animation</option>
+          <option value="Romance">Romance</option>
+          <option value="Thriller">Thriller</option>
+
+
         </select>
       </div>
       <div>
