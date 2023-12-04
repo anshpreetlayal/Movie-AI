@@ -41,6 +41,43 @@ const LoginScreen = ({ navigation }) => {
         onChangeText={setPassword}
         secureTextEntry
       />
+         {error ? <Text style={styles.error}>{error}</Text> : null}
+
+<Button title="Log In" onPress={handleLogin} />
+
+<TouchableOpacity onPress={() => navigation.navigate("SignUp")}>
+  <Text style={styles.link}>Don't have an account? Sign Up</Text>
+</TouchableOpacity>
+</View>
+);
+};
+
+const styles = StyleSheet.create({
+container: {
+flex: 1,
+justifyContent: "center",
+padding: 16,
+},
+title: {
+fontSize: 24,
+marginBottom: 16,
+},
+input: {
+height: 40,
+borderColor: "gray",
+borderWidth: 1,
+marginBottom: 12,
+paddingHorizontal: 10,
+},
+error: {
+color: "red",
+marginBottom: 12,
+},
+link: {
+color: "blue",
+marginTop: 16,
+textAlign: "center",
+},
 });
 
 export default LoginScreen;
