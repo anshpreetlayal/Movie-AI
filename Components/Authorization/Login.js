@@ -22,3 +22,25 @@ const LoginScreen = ({ navigation }) => {
       setUsernameOrEmail("");
       setPassword("");
     };
+    
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Log In</Text>
+
+      <TextInput
+        style={styles.input}
+        placeholder="Username or Email"
+        value={usernameOrEmail}
+        onChangeText={setUsernameOrEmail}
+      />
+
+      <TextInput
+        style={styles.input}
+        placeholder="Password"
+        value={password}
+        onChangeText={setPassword}
+        secureTextEntry
+      />
+});
+
+export default LoginScreen;
