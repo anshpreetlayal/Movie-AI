@@ -20,6 +20,9 @@
     "@types/react": "18.2.41",
     "@types/react-dom": "18.2.17",
     "react-native-svg": "13.9.0",
+    "react-navigation": "4.0.0",
+    "@expo/vector-icons": "^13.0.0",
+    "react-native-paper": "4.9.2",
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
