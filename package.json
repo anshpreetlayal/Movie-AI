@@ -28,6 +28,10 @@
     "react-navigation-stack": "2.10.4",
     "@react-navigation/stack": "*",
     "react-native-navigation": "*",
+    "@react-navigation/compat": "*",
+    "@react-navigation/native": "6.0.0",
+    "react-native-vector-icons": "10.0.2",
+    "react-native-gesture-handler": "~2.12.0",
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
