@@ -45,4 +45,17 @@ return (
 
 };
 
+
+const styles = StyleSheet.create({
+    containerLight: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: "#ffffff",
+      padding: 20,
+    },
+  
+  });
+  
+
 export default SettingsScreen;
