@@ -10,6 +10,12 @@ const SettingsScreen = ({ navigation }) => {
       setIsDarkMode((prevMode) => !prevMode);
     };
 
-}
+    
+   const toggleNotifications = () => {
+    setReceiveNotifications((prev) => !prev);
+  };
+
+
+};
 
 export default SettingsScreen;
