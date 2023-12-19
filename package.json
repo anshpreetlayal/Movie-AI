@@ -23,6 +23,11 @@
     "react-navigation": "4.0.0",
     "@expo/vector-icons": "^13.0.0",
     "react-native-paper": "4.9.2",
+    "react-native-screens": "~3.22.0",
+    "react-native-progress": "*",
+    "react-navigation-stack": "2.10.4",
+    "@react-navigation/stack": "*",
+    "react-native-navigation": "*",
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
