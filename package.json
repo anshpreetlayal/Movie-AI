@@ -13,7 +13,13 @@
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
     "react-native": "0.72.5",
-    "styled-components": "^6.1.1"
+    "styled-components": "^6.1.1",
+    "remx": "*",
+    "redux": "*",
+    "react-redux": "*",
+    "@types/react": "18.2.41",
+    "@types/react-dom": "18.2.17",
+    "react-native-svg": "13.9.0",
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
