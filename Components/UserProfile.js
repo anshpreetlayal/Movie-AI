@@ -15,7 +15,24 @@ function UserProfile({ username, email, avatar, favoriteMovies, watchlist, revie
               <li key={index}>{movie.title}</li>
             ))}
           </ul>
-</div> 
-</div>
-</div>
-          )}
+          <h3>Watchlist</h3>
+          <ul>
+            {watchlist.map((movie, index) => (
+              <li key={index}>{movie.title}</li>
+            ))}
+          </ul>
+          <h3>Reviews</h3>
+          <ul>
+            {reviews.map((review, index) => (
+              <li key={index}>
+                <strong>{review.movieTitle}:</strong> {review.comment}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default UserProfile;
