@@ -15,5 +15,7 @@ function UserProfile({ username, email, avatar, favoriteMovies, watchlist, revie
               <li key={index}>{movie.title}</li>
             ))}
           </ul>
-
+</div> 
+</div>
+</div>
           )}
