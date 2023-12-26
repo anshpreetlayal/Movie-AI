@@ -1,6 +1,6 @@
 import React from 'react';
 
-function UserProfile({ username, email, avatar }) {
+function UserProfile({ username, email, avatar, favoriteMovies, watchlist, reviews }) {
   return (
     <div className="user-profile">
       <h2>User Profile</h2>
@@ -9,11 +9,11 @@ function UserProfile({ username, email, avatar }) {
         <div>
           <p><strong>Username:</strong> {username}</p>
           <p><strong>Email:</strong> {email}</p>
-          {/* Add more user information or options as needed */}
-        </div>
-      </div>
-    </div>
-  );
-}
+          <h3>Favorites</h3>
+          <ul>
+            {favoriteMovies.map((movie, index) => (
+              <li key={index}>{movie.title}</li>
+            ))}
+          </ul>
 
-export default UserProfile;
+          )}
