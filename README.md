@@ -4,7 +4,8 @@
 Movie-AI is an innovative movie recommendation system empowered by artificial intelligence and machine learning. It's designed to enhance your movie-watching experience by providing personalized movie suggestions and smart features.
 
 ## Features
-
+-Reccomendations
+-Personal Profile
 ### Personalized Recommendations
 Discover movies tailored to your unique preferences and viewing history. Movie-AI analyzes your tastes and recommends movies it thinks you'll love.
 
